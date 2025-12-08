@@ -12,7 +12,7 @@ Inspired by [tristedo](https://www.youtube.com/@tristefr)'s video _"[I Built a T
 ### Installation
 
 1. Install Violentmonkey (or another userscript manager) from your favorite browser extension store. (On Chromium browsers you must enable "Allow User Scripts" in the extensions settings)
-2. Click [install](https://github.com/NikoboiNFTB/TikTok-Auto-Poster/raw/refs/heads/main/auto-poster-1.0.user.js) and install when prompted.  
+2. Click [install](https://github.com/NikoboiNFTB/TikTok-Tools/raw/refs/heads/main/auto-poster-1.0.user.js) and install when prompted.  
 
 ### Usage
 
