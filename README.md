@@ -48,4 +48,4 @@ Will automatically scroll on the [TikTok feed page](https://www.tiktok.com/).
 
 ### Notes
 
-Hardware/Network limited.
+The auto-scroller is currently hardware/network limited.
