@@ -1,0 +1,75 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Check if wmctrl is installed
+if ! command -v wmctrl &> /dev/null; then
+    echo "Error: wmctrl is not installed. Please install it using your package manager."
+    exit 1
+fi
+
+# Check if exactly 8 arguments are provided
+if [ "$#" -ne 8 ]; then
+    echo "Error: You must provide exactly 8 window IDs as arguments."
+    echo "run 'wmctrl -l' to list IDs, and add your browser windows IDs as args:"
+    echo "  bash $0 0x02a02f32 0x02a02feb 0x02a0300b 0x02a0302b 0x02a0304b 0x02a0306b 0x02a0308b 0x02a030ab"
+    exit 1
+fi
+
+WINDOW_IDS=("$@")
+MISSING_IDS=()
+
+# Option 1: Hard-coded 4x2 grid coordinates (x, y, width, height)
+# Adjust these as needed for your screen resolution
+GRID_COORDINATES=(
+    "0,0,480,540"
+    "480,0,480,540"
+    "960,0,480,540"
+    "1440,0,480,540"
+    "0,540,480,540"
+    "480,540,480,540"
+    "960,540,480,540"
+    "1440,540,480,540"
+)
+
+# Optional: Calculate dynamically based on screen resolution
+# Uncomment to use dynamic calculation
+# SCREEN_WIDTH=$(xdpyinfo | awk '/dimensions/{print $2}' | cut -d'x' -f1)
+# SCREEN_HEIGHT=$(xdpyinfo | awk '/dimensions/{print $2}' | cut -d'x' -f2)
+# WIDTH=$((SCREEN_WIDTH / 4))
+# HEIGHT=$((SCREEN_HEIGHT / 2))
+# GRID_COORDINATES=(
+#     "0,0,$WIDTH,$HEIGHT"
+#     "$WIDTH,0,$WIDTH,$HEIGHT"
+#     "$((WIDTH*2)),0,$WIDTH,$HEIGHT"
+#     "$((WIDTH*3)),0,$WIDTH,$HEIGHT"
+#     "0,$HEIGHT,$WIDTH,$HEIGHT"
+#     "$WIDTH,$HEIGHT,$WIDTH,$HEIGHT"
+#     "$((WIDTH*2)),$HEIGHT,$WIDTH,$HEIGHT"
+#     "$((WIDTH*3)),$HEIGHT,$WIDTH,$HEIGHT"
+# )
+
+# Function to check if window exists
+window_exists() {
+    local id=$1
+    wmctrl -l | grep -iq "$id"
+}
+
+# Remove maximization and resize/move windows
+for i in "${!WINDOW_IDS[@]}"; do
+    id="${WINDOW_IDS[$i]}"
+    coords="${GRID_COORDINATES[$i]}"
+    if window_exists "$id"; then
+        wmctrl -i -r "$id" -b remove,maximized_vert,maximized_horz
+        wmctrl -i -r "$id" -e "0,$coords"
+    else
+        MISSING_IDS+=("$id")
+    fi
+done
+
+# Notify user once if any IDs are missing
+if [ "${#MISSING_IDS[@]}" -gt 0 ]; then
+    echo "The following window IDs do not exist:"
+    printf '%s\n' "${MISSING_IDS[@]}"
+    echo "To see available windows and their IDs, run: wmctrl -l"
+fi
