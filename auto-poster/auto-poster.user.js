@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         TikTok - Auto Poster
 // @namespace    https://github.com/NikoboiNFTB/TikTok-Auto-Poster/
+// @downloadURL  https://github.com/NikoboiNFTB/TikTok-Tools/raw/refs/heads/main/auto-poster/auto-poster.user.js
 // @version      1.0
 // @description  Clicks post video and confirm buttons.
 // @author       Nikoboi

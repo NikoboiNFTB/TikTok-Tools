@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         TikTok Auto Scroll Clicker + Dashboard
 // @namespace    https://github.com/NikoboiNFTB/TikTok-Tweaks
+// @downloadURL  https://github.com/NikoboiNFTB/TikTok-Tools/raw/refs/heads/main/auto-scroller/auto-scoller.user.js
 // @version      1.0
 // @description  Automatically clicks the DOWN button on TikTok and shows total clicks in a floating dashboard
 // @author       Nikoboi
