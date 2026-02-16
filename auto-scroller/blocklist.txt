@@ -6,7 +6,7 @@
 ! Source: https://github.com/NikoboiNFTB/TikTok-Tools/raw/refs/heads/main/auto-scroller/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/TikTok-Tools/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/TikTok-Tools/pulls
-! Last updated: 2026-02-16 11:52 UTC+02:00
+! Last updated: 2026-02-16 11:55 UTC+02:00
 ! Expires: 7 days
 
 ! ========================================
