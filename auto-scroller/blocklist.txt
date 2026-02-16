@@ -1,4 +1,21 @@
-! --- TikTok Filters by Nikoboi --- !
+! Title: TikTok Filters by Nikoboi
+! Description: Helper for `auto-scroller.user.js`.
+! Homepage: https://nikoboi.dev/
+! Author: Nikoboi
+! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/TikTok-Tools/blob/main/LICENSE
+! Source: https://github.com/NikoboiNFTB/TikTok-Tools/raw/refs/heads/main/auto-scroller/blocklist.txt
+! Issues: https://github.com/NikoboiNFTB/TikTok-Tools/issues
+! Pull Requests: https://github.com/NikoboiNFTB/TikTok-Tools/pulls
+! Last updated: 2026-02-16 11:52 UTC+02:00
+! Expires: 7 days
+
+! ========================================
+! Start of Filters
+! ========================================
+
 ! The account creation I think idk man it's the top-right thing that fucks with the dashboard.
 www.tiktok.com##.e1uvg3ki3.css-jw2lbj-5e6d46e3--DivActionBarContainer
-! --- TikTok Filters by Nikoboi --- !
+
+! ========================================
+! End of Filters
+! ========================================
