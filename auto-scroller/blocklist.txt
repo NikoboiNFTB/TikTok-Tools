@@ -3,10 +3,10 @@
 ! Homepage: https://nikoboi.dev/
 ! Author: Nikoboi
 ! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/TikTok-Tools/blob/main/LICENSE
-! Source: https://github.com/NikoboiNFTB/TikTok-Tools/raw/refs/heads/main/auto-scroller/blocklist.txt
+! Source: https://tiktok.nikoboi.dev/auto-scroller/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/TikTok-Tools/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/TikTok-Tools/pulls
-! Last updated: 2026-02-16 11:55 UTC+02:00
+! Last updated: 2026-02-24 21:22 UTC+02:00
 ! Expires: 7 days
 
 ! ========================================
