@@ -44,7 +44,7 @@ The auto-scroller is currently hardware/network limited. It's fast.
 Blocks some shit that overlays with the dashboard in the top-right. Here's the source link:
 
 ```text
-https://github.com/NikoboiNFTB/TikTok-Tools/raw/refs/heads/main/auto-scroller/blocklist.txt
+https://tiktok.nikoboi.dev/auto-scroller/blocklist.txt
 ```
 
 #### uBlock Origin add tutorial
