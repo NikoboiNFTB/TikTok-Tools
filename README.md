@@ -6,7 +6,7 @@ Tools for TikTok
 
 Automatically clicks **Post Video** and **Confirm/Post Now** buttons on TikTok.
 
-Inspired by [tristedo](https://www.youtube.com/@tristefr)'s video [*I Built a TikTok Bot That Posts Every Minute*](https://www.youtube.com/watch?v=KlyAWXeGIl4) that failed at the very last step. I fixed the missing functionality.
+Inspired by [tristedo](https://www.youtube.com/@tristefr)'s video [_I Built a TikTok Bot That Posts Every Minute_](https://www.youtube.com/watch?v=KlyAWXeGIl4) that failed at the very last step. I fixed the missing functionality.
 
 ### Installation
 
@@ -25,7 +25,7 @@ Use responsibly, automated posting may violate TikTok’s terms of service.
 
 Automatically scrolls the TikTok feed every second.
 
-Inspired by [triste](https://www.youtube.com/@tristefr)'s video "[*I Watched 1M TikToks in 24 Hours*](https://www.youtube.com/watch?v=JsAKnQrYAgA)". I think I could do better.
+Inspired by [triste](https://www.youtube.com/@tristefr)'s video "[_I Watched 1M TikToks in 24 Hours_](https://www.youtube.com/watch?v=JsAKnQrYAgA)". I think I could do better.
 
 ### Installation
 
@@ -67,11 +67,11 @@ Feel free to fork this repository and submit issues or pull requests if you have
 
 ## Credits
 
-Ideas from *[triste](https://www.youtube.com/@tristefr)*'s videos
+Ideas from [_triste_](https://www.youtube.com/@tristefr)'s videos
 
-Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
+Created by [**Nikoboi**](https://github.com/NikoboiNFTB/)
 
-Script logic fine-tuned using **[ChatGPT](https://chatgpt.com/)**
+Script logic fine-tuned using [**ChatGPT**](https://chatgpt.com/)
 
 ## License
 
