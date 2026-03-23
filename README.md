@@ -74,3 +74,5 @@ Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
 Script logic fine-tuned using **[ChatGPT](https://chatgpt.com/)**
 
 ## License
+
+This project is licenced under the GNU General Public License V3. See [LICENSE](/LICENSE) for details.
